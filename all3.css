@@ -76,14 +76,14 @@ img{
   line-height: 30px;
 }
 /* 三種字重 300 500 600 */
-.fz-l{
-  font-size: 600px;
+.fw-l{
+  font-weight: 600;
 }
-.fz-m{
-  font-size: 500px;
+.fw-m{
+  font-weight: 500;
 }
-.fz-s{
-  font-size: 300px;
+.fw-s{
+  font-weight: 300;
 }
 /* mb 8 16 24 40 48 64 80*/
 .mb-8{
@@ -107,12 +107,21 @@ img{
 .mb-80{
   margin-bottom: 80px;
 }
+.mt-16{
+  margin-top: 16px;
+}
 .mt-40{
   margin-top: 40px;
+}
+.ml-20{
+  margin-left: 20px;
 }
 /* pt  24*/
 .pt-24{
   padding-top: 24px;
+}
+.pl-23{
+  padding-left: 23px;
 }
 /* pb 7 22 40 */
 .pb-7{
@@ -123,6 +132,9 @@ img{
 }
 .pb-40{
   padding-bottom: 40px;
+}
+.pl-16{
+  padding-left: 16px;
 }
 /* border */
 .bb-1-black{
@@ -136,4 +148,43 @@ img{
 }
 .bl-1-white{
   border-left: 1px solid #fff;
+}
+.bl-1-black{
+  border-left: 1px solid black;
+}
+/* color */
+.text-primary{
+  color: #A00404;
+}
+.text-white {
+  color: #fff;
+}
+ 
+/* bgc */
+.bg-primary {
+  background: #415165;
+}
+.text-center {
+  text-align: center;
+}
+.avatar img {
+  width: 324px;
+  height: 324px;
+}
+.skills ul {
+  width: 230px;
+  margin: 0 auto;
+}
+.work img{
+  width: 100px;
+  height: 100px;
+}
+.contact ul {
+  width: 550px;
+  margin: 0 auto;
+}
+.contact img{
+  width: 48px;
+  height: 48px;
+  margin: 16px 12px 0 12px;
 }
