@@ -147,7 +147,7 @@ img{
   border-bottom: 1px solid #fff;
 }
 .bl-1-white{
-  border-left: 1px solid #fff;
+  border-left: 1px solid #96A9C4;
 }
 .bl-1-black{
   border-left: 1px solid black;
@@ -172,19 +172,35 @@ img{
   height: 324px;
 }
 .skills ul {
-  width: 230px;
-  margin: 0 auto;
+  /* width: 230px; */
+  /* margin: 0 auto; */
+  display: inline-block;
+  text-align: left;
 }
 .work img{
   width: 100px;
   height: 100px;
 }
 .contact ul {
-  width: 550px;
-  margin: 0 auto;
+  /* width: 550px; */
+  /* margin: 0 auto; */
 }
 .contact img{
   width: 48px;
   height: 48px;
   margin: 16px 12px 0 12px;
+}
+.contact img:hover{
+  background: green;
+}
+.contact a {
+  color: #fff;
+  text-decoration: none;
+}
+.contact a:hover{
+  color: #A00404;
+}
+
+.profile span{
+  vertical-align: 4px;
 }
